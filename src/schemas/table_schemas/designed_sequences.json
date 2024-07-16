@@ -95,7 +95,7 @@
 		"type": "string",
 		"constraints": {
                     "enum": [
-			"SNP",
+			"SNV",
 			"indel"
                     ]
 		}

@@ -184,7 +184,7 @@ def test_tabular_file_check_designed_sequences_invalid():
             [7, 3, 'constraint-error', 'constraint "enum" is "[\'variant\', \'element\', \'synthetic\', \'scrambled\']"'],
             [7, 4, 'constraint-error', 'constraint "enum" is "[\'test\', \'variant positive control\', \'variant negative control\', \'element active control\', \'element inactive control\']"'],
             [7, 10, 'constraint-error', 'constraint "enum" is "[\'+\', \'-\']"'],
-            [7, 11, 'constraint-error', 'array item constraint "enum" is "[\'SNP\', \'indel\']"'],
+            [7, 11, 'constraint-error', 'array item constraint "enum" is "[\'SNV\', \'indel\']"'],
             [7, 14, 'constraint-error', 'array item constraint "enum" is "[\'ref\', \'alt\']"'],
             [8, 8, 'constraint-error', 'constraint "minimum" is "0"']
         ]
